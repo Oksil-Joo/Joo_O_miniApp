@@ -5,19 +5,19 @@ export default {
     props: ["piece"],
 
     template:
-    `<div>
+    `<section class="lightboxWrapper">
         <div>
-            <h1> {{piece.name}} </h1>
+            <h1 class="title"> {{piece.name}} </h1>
             <p>{{piece.description}} </p>
-            <h1> Starting from </h1>
+            <h2> Starting from </h2>
             <p> {{piece.price}} </p>
-            <h1> Fuel economy per 100 km </h1>
+            <h2> Fuel economy per 100 km </h2>
             <p> {{piece.fuel}} </p>
-            <h1> Available </h1>
+            <h2> Available </h2>
             <p> {{piece.available}} </p>
-            <h1> Performance Features </h1>
+            <h2> Performance Features </h2>
             <p> {{piece.features}} </p>
         <div>
-            </div>
+    </section>
     `
 }
