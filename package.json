@@ -1,8 +1,9 @@
 {
   "name": "Joo_O_miniApp",
   "version": "1.0.0",
-  "description": "",
+  "description": "Create a car web page based on class builds using SASS, Vue, AJAX, databases, and Fetch.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +11,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.43.4"
   }
 }
