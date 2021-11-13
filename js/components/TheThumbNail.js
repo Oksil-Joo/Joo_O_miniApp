@@ -5,11 +5,10 @@ export default {
     props: ["piece"],
 
     template: `
-    <div class="car-panel">
+    <div class="carPanel">
         <div>
             <img :src='"images/" + piece.carpic' :alt="piece.name">
-            <button @click="showmydata"> {{piece.name}} </button>
-            <hr />
+            <p><button @click="showmydata"> Go to {{piece.name}} </button></p>
         </div>  
 
     </div>

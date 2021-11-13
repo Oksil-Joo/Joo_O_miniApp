@@ -1,9 +1,13 @@
-.car-panel {
+.carPanel {
     display: inline-block;
     margin: 10px;
+    max-width: 1000px;
+    padding-top: 20px;
+
 }
 
 .title {
-    font-size: 40px;
+    font-size: 60px;
     font-weight: bold;
 }
+

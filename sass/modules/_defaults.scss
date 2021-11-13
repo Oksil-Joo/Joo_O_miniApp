@@ -1,7 +1,34 @@
 body { 
+    margin: 0 auto;
     color: $main-color; 
     font-size: $main-size; 
     font-family: $main-font;
-    width: 900px;
-    margin: 0 auto;
+
 }
+button {
+    background-color: black;
+    color: floralwhite;
+    padding: 12px 28px;
+    width: 320px;
+    margin-bottom: 10px;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color:brown;
+}
+
+h2 {
+    font-size: 24px;
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+.lightboxWrapper {
+    color: floralwhite;
+    max-width: 960px;
+    padding: 20px;
+    background-color: black;
+    margin: 0px 10px;
+}
+
