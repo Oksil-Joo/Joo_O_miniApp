@@ -5,7 +5,7 @@ export default {
     props: ["piece"],
 
     template:
-    `<div>
+    `<section class="lightboxWrapper">
         <div>
             <h1> {{piece.name}} </h1>
             <p>{{piece.description}} </p>
@@ -18,6 +18,6 @@ export default {
             <h1> Performance Features </h1>
             <p> {{piece.features}} </p>
         <div>
-            </div>
+    </section>
     `
 }

@@ -25,18 +25,16 @@
     <main id="app">
         <!-- this is where our dynamic data will go -->
         <section>
-            <thumb 
+            <thumb
+            v-on:showdata="popLightBox" 
             v-for="item in carData" 
             :piece="item" 
             :key="item.id">
             </thumb>
         </section>
 
-        <lightbox 
-        v-if="showdata = true"
-        v-for="item in carData" 
-        :piece="item" 
-        :key="item.id"></lightbox>
+            <lightbox class="lightbox" :class='{visible: isVisible}' :piece="currentCarItem" :key="currentCarItem"></lightbox>
+
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
