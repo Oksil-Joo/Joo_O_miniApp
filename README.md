@@ -1,9 +1,9 @@
 # Mini Cooper Makes and Models
-## Concept
+### Concept
 Create a car web page based on class builds using SASS, Vue, AJAX, databases, and Fetch. If you click on one of the three-car models, you will see additional data for that model.  In addition, you can use Vue to navigate the app using components and AJAX.
 
 
-## Installation
+### Installation
 1. [Node.js](https://nodejs.org/)
 2. [SASS](https://sass-lang.com/)
 3. [gulp-cli](https://www.npmjs.com/)
@@ -12,7 +12,7 @@ Create a car web page based on class builds using SASS, Vue, AJAX, databases, an
 6. [Vue.js](https://vuejs.org/)
 7. [postman](https://www.postman.com/)
 
-## Future Plans
+### Future Plans
 I will upload and modify constantly my work to be the perfect Mini App.
 
 ## MIT Lisense
