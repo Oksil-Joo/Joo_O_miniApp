@@ -1,16 +1,13 @@
 
 export default {
-    name: "TheThumbnailComponent",
+    name: "TheLightboxComponent",
 
     props: ["piece"],
 
-    template: `
-    <div class="car-panel">
+    template:
+    `<div>
         <div>
-            <img :src='"images/" + piece.carpic' :alt="piece.name">
-        </div>  
-        <div>
-            <h1 class="title"> {{piece.name}} </h1>
+            <h1> {{piece.name}} </h1>
             <p>{{piece.description}} </p>
             <h1> Starting from </h1>
             <p> {{piece.price}} </p>
@@ -21,6 +18,6 @@ export default {
             <h1> Performance Features </h1>
             <p> {{piece.features}} </p>
         <div>
-    </div>
-     `
+            </div>
+    `
 }

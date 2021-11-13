@@ -1,5 +1,6 @@
 import { getData } from "./components/TheDataMiner.js";
 import TheThumbnailComponent from "./components/TheThumbNail.js";
+// import TheLightboxComponent from "./components/TheLightboxComponent.js";
 
 
 (() => {
@@ -11,15 +12,14 @@ import TheThumbnailComponent from "./components/TheThumbNail.js";
 
         data: {
             carData: [],
-            message: "hello from Vue"
+            message: "hello from Vue",
+            showdata: false
         },
 
-        methods: {
-
-        },
 
         components: {
-            thumb: TheThumbnailComponent
+            thumb: TheThumbnailComponent,
+            // lightbox: TheLightboxComponent
         }
     }).$mount("#app");   
 })();
